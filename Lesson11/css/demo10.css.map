@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQE,MAAM;EAH0B,gBAAgB,EAAE,IAAI;EACjC,SAAS,EAAE,IAAI",
+"sources": ["../sass/demo10.scss"],
+"names": [],
+"file": "demo10.css"
+}

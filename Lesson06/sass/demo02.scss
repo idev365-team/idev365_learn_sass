@@ -1,0 +1,9 @@
+p {
+    font: 10px/8px;
+    $width:1000px;
+    width: $width/2;
+    width:round(1.5)/2;
+    height:(5000px/2);
+    margin-left:5px + 8px/2px;
+    font: (italic bold 10px/8px); 
+}

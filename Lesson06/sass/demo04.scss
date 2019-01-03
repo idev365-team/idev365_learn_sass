@@ -1,0 +1,12 @@
+$value: 2;
+
+p:before{
+    content: "I ate #{$value} pies";
+}
+
+$name:foo;
+$attr:border;
+
+p.#{$name}{
+    #{$attr}-color:red;
+}

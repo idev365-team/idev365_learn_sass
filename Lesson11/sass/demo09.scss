@@ -1,0 +1,8 @@
+@mixin silly-link {
+    a{
+        color:blue;
+        background-color: red;
+    }
+}
+
+@include silly-link()

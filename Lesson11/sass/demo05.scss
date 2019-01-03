@@ -1,0 +1,12 @@
+$students:(
+    (id:1,name:"山地人",gender:'男'),
+    (id:2,name:"张三",gender:'女'),
+    (id:3,name:"李四",gender:'男'),
+);
+
+@each $var in $students {
+    @debug $var;
+    .stu-#{map-get($var,'id')}{
+        content:map-get($var,'id')+":"+map-get($var,'name')+","+map-get($var,'gender');
+    }
+}

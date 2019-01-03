@@ -1,0 +1,17 @@
+
+%hello{
+    color:red;
+    font-size:2em;
+}
+/**
+* 这是主体部分
+*/
+#main{
+    @extend %hello;
+    background-color: red;
+}
+/*这里是文章标题的样式*/
+.title{
+    // @extend %hello;
+    line-height: 2em;
+}

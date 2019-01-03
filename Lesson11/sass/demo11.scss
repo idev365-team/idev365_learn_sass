@@ -1,0 +1,11 @@
+@mixin sexy-border($color:red, $width:1px) {
+    border: {
+        color: $color;
+        width: $width;
+        style: dashed;
+    }
+  }
+
+  .hello{
+        @include sexy-border($width:2px,$color:yellow);
+  }

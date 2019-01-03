@@ -1,0 +1,21 @@
+.parent{
+    color:red;   
+    @at-root .child{
+        font-size:30px;
+    }
+    @at-root .title{
+        .caption{
+            background: blue;
+        }
+    }
+
+    @at-root{
+        .child1{
+            color:yellow;
+        }
+        .child2{
+            color:pink;
+        }
+    }
+   
+}

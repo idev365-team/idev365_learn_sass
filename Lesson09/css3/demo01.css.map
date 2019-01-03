@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "demo01.css",
+	"sources": [
+		"../sass/demo01.scss"
+	],
+	"sourcesContent": [
+		".error{\n    border:1px #f00;\n    background-color: #fdd;\n}\n.seriousError{\n    @extend .error;\n    border-width: 3px;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,MAAM,EAIN,aAAa,CAJP;EACF,MAAM,EAAC,QAAQ;EACf,gBAAgB,EAAE,IAAI,GACzB;;AACD,AAAA,aAAa,CAAA;EAET,YAAY,EAAE,GAAG,GACpB"
+}

@@ -1,0 +1,9 @@
+$media:screen;
+    $feature:-webkit-min-device-pixel-ratio;
+$value:1.5;
+
+@media #{$media} and ($feature:$value) {
+  .sidebar{
+      width:500px;
+  }  
+}

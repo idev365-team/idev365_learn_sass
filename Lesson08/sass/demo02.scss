@@ -1,0 +1,10 @@
+@media screen{
+    .sidebar{
+        @media (orientation:landscape){
+            width: 500px;
+        }
+    }
+    .main {
+        width:800px;
+    }
+}

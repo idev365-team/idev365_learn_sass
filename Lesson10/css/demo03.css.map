@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "demo03.css",
+	"sources": [
+		"../sass/demo03.scss"
+	],
+	"sourcesContent": [
+		"@debug 10em+12em;\n\n$abc:10px;\n.title{\n    content:\"abc\"\n}\n\n@debug $abc;\n\n@warn $abc;\n\n"
+	],
+	"names": [],
+	"mappings": "AAGA,AAAA,MAAM,CAAA;EACF,OAAO,EAAC,KACZ,GAAC"
+}

@@ -1,0 +1,10 @@
+@mixin wrapped-stylish-mixin($args...) {
+    font-weight: bold;
+    content:$args;
+    // @include stylish-mixin($args...);
+}
+
+.stylish {
+// The $width argument will get passed on to "stylish-mixin" as a keyword
+    @include wrapped-stylish-mixin(#00ff00, 100px);
+}

@@ -1,0 +1,16 @@
+@import "./partial";
+
+a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color:$primary-color;
+    &:hover{
+        color:white;
+    }
+}
+
+#content aside {
+    color: red;
+    body.ie & { color: green }
+  }

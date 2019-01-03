@@ -1,0 +1,8 @@
+* html {
+  color: green;
+}
+* html #logo {
+  background-image: url(/logo.gif);
+}
+
+/*# sourceMappingURL=demo01.css.map */

@@ -1,0 +1,11 @@
+@mixin compound {
+    @include highlighted-background;
+    @include header-text;
+  }
+  
+  @mixin highlighted-background { background-color: #fc0; }
+  @mixin header-text { font-size: 20px; }
+
+  .title{
+    @include compound()      
+  }

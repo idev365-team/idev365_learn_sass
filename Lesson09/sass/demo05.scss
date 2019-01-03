@@ -1,0 +1,23 @@
+// ----
+// libsass (v3.3.2)
+// ----
+
+.button1 {
+    background: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    &:hover {
+      background: red;
+    }
+  }
+  
+  .button2 {
+    background: blue;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    &:hover {
+    //   @extend .button1:hover
+    }
+  }

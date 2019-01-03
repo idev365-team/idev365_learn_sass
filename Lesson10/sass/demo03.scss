@@ -1,0 +1,12 @@
+@debug 10em+12em;
+
+$abc:10px;
+.title{
+    content:"abc"
+}
+
+@debug $abc;
+
+@warn $abc;
+
+@error "Hello Sass"

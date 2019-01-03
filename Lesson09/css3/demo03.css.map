@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "demo03.css",
+	"sources": [
+		"../sass/demo03.scss"
+	],
+	"sourcesContent": [
+		"a {\n    color:red;\n    &:hover{\n        text-decoration: underline;\n    }\n}\n\n\n.hoverlink {\n    @extend a:hover;\n}\n "
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,CAAC,CAAC;EACE,KAAK,EAAC,GAAG,GAIZ;EALD,AAEI,CAFH,AAEI,MAAM,EAMX,UAAU,CANC;IACH,eAAe,EAAE,SAAS,GAC7B"
+}

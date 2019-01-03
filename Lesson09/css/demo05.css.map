@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,QAAS;EACL,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,QAAQ;EACjB,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;EACZ,cAAQ;IACN,UAAU,EAAE,GAAG;;AAInB,QAAS;EACP,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,QAAQ;EACjB,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK",
+"sources": ["../sass/demo05.scss"],
+"names": [],
+"file": "demo05.css"
+}

@@ -1,0 +1,5 @@
+.title{
+    border-width:if(true,1px,2px);
+    @if 5<10 { content:"right"; }
+    @if true { background-color: red; }
+}

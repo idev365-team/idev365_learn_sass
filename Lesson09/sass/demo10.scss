@@ -1,0 +1,10 @@
+#context span%abc {
+    color: blue;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.notice {
+    @extend %abc;
+}
+

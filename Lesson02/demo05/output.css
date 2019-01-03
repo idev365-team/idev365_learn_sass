@@ -1,0 +1,18 @@
+a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  color: white;
+}
+
+#content aside {
+  color: red;
+}
+body.ie #content aside {
+  color: green;
+}
+
+/*# sourceMappingURL=output.css.map */

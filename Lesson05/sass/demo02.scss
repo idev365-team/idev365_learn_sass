@@ -1,0 +1,7 @@
+@mixin firefox-message($selector) {
+    body.firfox #{$selector}:before{
+        content:"Hi,Firefox users!"
+    }
+}
+
+@include firefox-message(".header")

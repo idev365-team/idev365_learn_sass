@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAOA,QAAS;EANL,KAAK,EAKA,OAAO;EAJZ,gBAAgB,EAIF,OAAO;EAHrB,YAAY,EAGW,OAAO;;AAOlC,UAAW;EAZP,KAAK,EAUU,OAAO;EATtB,gBAAgB,EASoB,OAAO;EAR3C,YAAY,EAQyC,OAAO",
+"sources": ["../sass/demo12.scss"],
+"names": [],
+"file": "demo12.css"
+}

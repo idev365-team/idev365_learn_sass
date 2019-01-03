@@ -1,0 +1,11 @@
+.error, .seriousError {
+  border: 1px #f00;
+  background-color: #fdd; }
+
+.error.intrustion, .intrustion.seriousError {
+  background-image: url("/image/hacked.png"); }
+
+.seriousError {
+  border-width: 3px; }
+
+/*# sourceMappingURL=demo02.css.map */

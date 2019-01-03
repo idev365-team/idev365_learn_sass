@@ -1,0 +1,12 @@
+.parent {
+  color: red; }
+  .child {
+    font-size: 30px; }
+  .title .caption {
+    background: blue; }
+  .child1 {
+    color: yellow; }
+  .child2 {
+    color: pink; }
+
+/*# sourceMappingURL=demo01.css.map */

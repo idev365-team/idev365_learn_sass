@@ -1,0 +1,15 @@
+* html #logo {
+  background-image: url(/logo.gif);
+}
+* html .title {
+  color: red;
+}
+
+#abc #logo {
+  background-image: url(/logo.gif);
+}
+#abc .title {
+  color: red;
+}
+
+/*# sourceMappingURL=demo14.css.map */

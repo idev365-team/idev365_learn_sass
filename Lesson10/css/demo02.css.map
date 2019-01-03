@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "demo02.css",
+	"sources": [
+		"../sass/demo02.scss"
+	],
+	"sourcesContent": [
+		"@media print {\n    .page {\n      width: 100%;\n      @at-root (without: media) {\n        color: red;\n      }\n    }\n  }"
+	],
+	"names": [],
+	"mappings": "AAAA,MAAM,CAAC,KAAK;EACR,AAAA,KAAK,CAAC;IACJ,KAAK,EAAE,IAAI,GAIZ;EALD,AAAA,KAAK,CAAL;IAGI,KAAK,EAAE,GAAG,GAEb"
+}

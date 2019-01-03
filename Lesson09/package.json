@@ -1,0 +1,10 @@
+{
+  "name": "Lesson09",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev":"sass --watch sass:dist",
+    "dev:node":"node-sass --watch sass:dist2"
+  }
+}

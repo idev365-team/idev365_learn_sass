@@ -1,0 +1,15 @@
+.button1 {
+  background: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white; }
+  .button1:hover {
+    background: red; }
+
+.button2 {
+  background: blue;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white; }
+
+/*# sourceMappingURL=demo05.css.map */

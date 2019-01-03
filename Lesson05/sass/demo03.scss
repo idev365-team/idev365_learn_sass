@@ -1,0 +1,8 @@
+.title{
+    margin:(2px 2px) (5px 6px)
+}
+$my-margin:(2px 2px 5px);
+
+.title2{
+    margin:append($my-margin,1px);
+}

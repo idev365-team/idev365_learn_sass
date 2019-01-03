@@ -1,0 +1,6 @@
+$content: null;
+    $content: "Non-null content" !default;
+
+#main {
+  content: $content;
+}

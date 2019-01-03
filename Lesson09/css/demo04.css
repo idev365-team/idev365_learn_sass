@@ -1,0 +1,9 @@
+a {
+  color: red; }
+  a:hover {
+    color: green; }
+
+a:hover {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=demo04.css.map */

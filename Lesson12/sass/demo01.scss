@@ -1,0 +1,12 @@
+@mixin apply-to-ie6-only($color:red) {
+    * html {
+      @content;
+      color:$color;
+    }
+  }
+
+  @include apply-to-ie6-only(green) {
+    #logo {
+      background-image: url(/logo.gif);
+    }
+  }

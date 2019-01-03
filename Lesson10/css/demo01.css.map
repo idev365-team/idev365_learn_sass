@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "demo01.css",
+	"sources": [
+		"../sass/demo01.scss"
+	],
+	"sourcesContent": [
+		".parent{\n    color:red;   \n    @at-root .child{\n        font-size:30px;\n    }\n    @at-root .title{\n        .caption{\n            background: blue;\n        }\n    }\n\n    @at-root{\n        .child1{\n            color:yellow;\n        }\n        .child2{\n            color:pink;\n        }\n    }\n   \n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,OAAO,CAAA;EACH,KAAK,EAAC,GAAG,GAmBZ;EAlBY,AAAD,MAAO,CAAA;IACX,SAAS,EAAC,IAAI,GACjB;EACQ,AACL,MADW,CACX,QAAQ,CAAA;IACJ,UAAU,EAAE,IAAI,GACnB;EAID,AAAA,OAAO,CAAA;IACH,KAAK,EAAC,MAAM,GACf;EACD,AAAA,OAAO,CAAA;IACH,KAAK,EAAC,IAAI,GACb"
+}

@@ -1,0 +1,29 @@
+.foo.bar .baz.bang .bip.qux {
+    $selector:&;
+    content: ""+$selector;
+}
+
+@mixin does-parent-exist {
+    @if & {
+      &:hover {
+        color: red;
+      }
+    } @else {
+      a {
+        color: red;
+      }
+    }
+  }
+
+  .hello{
+    @include does-parent-exist;
+  }
+  
+$content: "First content";
+$content: "Second content?" !default;
+$new_content: "New content?" !default;
+
+#test{
+    content:$content;
+    content:$new_content;
+}

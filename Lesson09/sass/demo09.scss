@@ -1,0 +1,6 @@
+#admin .tabbar a {
+    font-weight: bold;
+}
+#demo .overview .fakelink {
+    @extend a;
+}

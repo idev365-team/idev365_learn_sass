@@ -1,0 +1,6 @@
+@each $animal in cat,dog,bird {
+    .#{$animal}-icon{
+        background-image: url('/images/#{$animal}.png')
+    }
+}
+

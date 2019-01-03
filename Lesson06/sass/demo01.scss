@@ -1,0 +1,20 @@
+$my-map:("big":20px,"small":14px);
+$my-map:map-merge($my-map,("normal":18px) );
+
+.title{
+    font-size: map-get($my-map,"big")
+}
+
+$my-btn-list:("success","warn","info","error");
+
+@each $var in $my-btn-list{
+    .btn-#{$var}{
+        color:red;
+    }
+}
+
+@each $key,$value in $my-map {
+    .span-#{$key}{
+        font-size:$value;
+    }
+}

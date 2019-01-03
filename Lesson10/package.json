@@ -1,0 +1,12 @@
+{
+  "name": "Lesson10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass --watch --recursive --output css --source-map true --source-map-contents sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

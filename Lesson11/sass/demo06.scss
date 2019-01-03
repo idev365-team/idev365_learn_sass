@@ -1,0 +1,8 @@
+$i:1;
+$max-column:12;
+@while $i<=$max-column {
+    .item-#{$i}{
+        width:100% - 100%/$i;
+    }
+    $i: $i + 1 ;
+}

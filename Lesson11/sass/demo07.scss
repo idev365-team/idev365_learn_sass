@@ -1,0 +1,7 @@
+@mixin say-hi {
+    content:"Hi,Sass/Scss";
+}
+
+.title{
+    @include say-hi();
+}
